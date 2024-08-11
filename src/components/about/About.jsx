@@ -2,7 +2,7 @@ import React from 'react'
 import aboutStyles from './styles/about.module.scss'
 import { Element } from 'react-scroll';
 import { motion } from 'framer-motion';
-import inarmy from '../image/i_in_army.jpg'
+import inarmy from '../image/Freelance.webp'
 import in_freelance from '../image/code2.webp'
 
 const About = ({ theme }) => {
@@ -54,9 +54,7 @@ const About = ({ theme }) => {
                     <p className={aboutStyles.textFirst}>
                         Hi! I am a Full Stack Developer specializing in building
                         web applications and websites using React.js.
-                        I moved to Israel in 2016, where I learned Hebrew.
                         I started learning web development in 2021 and quickly discovered my passion for it.
-                        I paid attention to development even while in the army.
 
                     </p>
                     <div className={aboutStyles.imgFirst}>
@@ -70,7 +68,7 @@ const About = ({ theme }) => {
                     </div>
                     <p className={aboutStyles.secondText}>
                         I've three years of freelance experience.
-                        I've collaborated with friends and freelancers globally, including in Israel, working on projects using Figma and GitHub.
+                        I've collaborated with friends and freelancers globally, working on projects using Figma and GitHub.
                         What drives me is a constant pursuit of self-improvement and growth.
                     </p>
                 </div>

@@ -35,8 +35,6 @@ const Photo = () => {
         >
             <div className={photoStyles.heading}>
                 <h3 className={photoStyles.helloWorld}>{HELLO_WORLD}</h3>
-                <h3 className={photoStyles.location}>{LOCATION}</h3>
-
             </div>
 
             <div className={photoStyles.content}>

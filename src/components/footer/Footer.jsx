@@ -43,13 +43,7 @@ const Footer = () => {
                     <motion.h2 custom={1} duration={1} variants={titleFooter} className={footerStyles.bigText}>{BIG_TITLE}</motion.h2>
                 </Element>
                 <div className={footerStyles.links}>
-                    <div className={footerStyles.linksSocial}>
-                        <a href="https://github.com/namiron?tab=repositories"
-                            target='blank' className={footerStyles.github}> <MdOutlineArrowOutward style={{ fontSize: '25px' }} /> {GITHUB}</a>
 
-                        <a href="https://www.linkedin.com/in/alexander-samsonov-60239a235/"
-                            target='blank' className={footerStyles.linkedin}><MdOutlineArrowOutward style={{ fontSize: '25px' }} /> {LINKEDIN}</a>
-                    </div>
                 </div>
                 <motion.div custom={1} duration={1} variants={titleFooter} className={footerStyles.mail}>
                     <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=alexandersam.dev@gmail.com"

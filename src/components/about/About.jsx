@@ -67,10 +67,10 @@ const About = ({ theme }) => {
                         <img src={in_freelance} alt="in_freelance" />
                     </div>
                     <p className={aboutStyles.secondText}>
-            I have three years of freelancing experience. I have collaborated
-            with friends and freelancers around the world, including in Israel,
-            on projects using a variety of technologies. I am driven by a
-            constant desire for self-improvement and growth.
+I have three years of freelancing experience. I have collaborated
+with friends and freelancers all over the world.
+on projects using various technologies. I am driven
+by a constant desire for self-improvement and growth.
                     </p>
                 </div>
 

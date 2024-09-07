@@ -64,6 +64,7 @@ const About = ({ theme }) => {
           </div>
         </div>
 
+<<<<<<< HEAD
         <div className={aboutStyles.blockSecond}>
           <div className={aboutStyles.imgSecond}>
             <img src={in_freelance} alt="in_freelance" />
@@ -80,6 +81,50 @@ const About = ({ theme }) => {
       </Element>
     </motion.div>
   );
+=======
+    //------------------------------------
+
+    return (
+        <motion.div
+            initial='hidden'
+            animate={hasAnimated ? 'visible' : 'hidden'}
+            whileInView={!hasAnimated ? 'visible' : undefined}
+            onAnimationComplete={handleAnimationComplete}
+            custom={1}
+            variants={about}
+            className={aboutStyles.aboutWrapper}
+        >
+            <Element name='about' className={aboutStyles.about} style={aboutStyle}>
+                <div className={aboutStyles.blockFirst}>
+                    <p className={aboutStyles.textFirst}>
+I am a front-end developer specializing in building web 
+                        applications and websites using React.js.
+                        I started learning web development at university.
+                        Out of all the subjects I studied, web development was my favorite,
+                        so I decided to continue learning this field.
+
+                    </p>
+                    <div className={aboutStyles.imgFirst}>
+                        <img src={inarmy} alt="inarmy" />
+                    </div>
+                </div>
+
+                <div className={aboutStyles.blockSecond}>
+                    <div className={aboutStyles.imgSecond}>
+                        <img src={in_freelance} alt="in_freelance" />
+                    </div>
+                    <p className={aboutStyles.secondText}>
+Since graduating, I have gained extensive experience, including working as a freelancer.
+                        I have collaborated with various teams and utilized different technologies to achieve project goals. 
+                        Although my formal education was completed some time ago,
+                        I continue to strive for growth by regularly upgrading my skills through courses and ongoing learning.
+                    </p>
+                </div>
+
+            </Element>
+        </motion.div>
+    );
+>>>>>>> e47475c050d30390658520d6adeb0849adafa7c3
 };
 
 export default About;

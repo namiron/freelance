@@ -70,26 +70,12 @@ export const mobile = 769;
 
 export const width = window.screen.width;
 
-<<<<<<< HEAD
 export const MY_NAME = "ALEXANDER SAMSONOV";
-=======
-export const mobile = 769
-
-export const width = window.screen.width
-
-export const MY_NAME = 'ALEXANDER SAMSONOV'
-
-export const TITLE = `Front End Developer`
->>>>>>> e47475c050d30390658520d6adeb0849adafa7c3
 
 export const TITLE = `Front End Developer`;
 
 export const SUB_TITLE = `
-<<<<<<< HEAD
 I am a promising Front-End Developer with a goal to continuously improve and strive for new achievements in the field of web development.`;
-=======
-I am a promising Front-End Developer with a goal to continuously improve and strive for new achievements in the field of web development
->>>>>>> e47475c050d30390658520d6adeb0849adafa7c3
 
 export const BIG_TITLE = `Have a project in mind?`;
 
@@ -103,8 +89,4 @@ export const GITHUB = `Github`;
 
 export const LINKEDIN = `Linkedin`;
 
-<<<<<<< HEAD
 export const LOCATION = ` Israel`;
-=======
-export const LOCATION = ` Israel`
->>>>>>> e47475c050d30390658520d6adeb0849adafa7c3

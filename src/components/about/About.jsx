@@ -52,9 +52,11 @@ const About = ({ theme }) => {
             <Element name='about' className={aboutStyles.about} style={aboutStyle}>
                 <div className={aboutStyles.blockFirst}>
                     <p className={aboutStyles.textFirst}>
-                        Hi! I am a Full Stack Developer specializing in building
-                        web applications and websites using React.js.
-                        I started learning web development in 2019 and quickly discovered my passion for it.
+I am a front-end developer specializing in building web 
+                        applications and websites using React.js.
+                        I started learning web development at university.
+                        Out of all the subjects I studied, web development was my favorite,
+                        so I decided to continue learning this field.
 
                     </p>
                     <div className={aboutStyles.imgFirst}>
@@ -67,10 +69,10 @@ const About = ({ theme }) => {
                         <img src={in_freelance} alt="in_freelance" />
                     </div>
                     <p className={aboutStyles.secondText}>
-I have three years of freelancing experience. I have collaborated
-with friends and freelancers all over the world.
-on projects using various technologies. I am driven
-by a constant desire for self-improvement and growth.
+Since graduating, I have gained extensive experience, including working as a freelancer.
+                        I have collaborated with various teams and utilized different technologies to achieve project goals. 
+                        Although my formal education was completed some time ago,
+                        I continue to strive for growth by regularly upgrading my skills through courses and ongoing learning.
                     </p>
                 </div>
 
